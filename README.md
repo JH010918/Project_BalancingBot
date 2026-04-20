@@ -16,7 +16,7 @@ STM32와 임베디드 제어를 활용해 개발한 자율 밸런싱 로봇
   - 블루투스 통신 기능
 
 ## ⚙️ 시스템 아키텍처
-![system_architecture](img/system_architecture.png)
+![system_architecture](img/sw_arch.png)
 
 ## 💾 데이터
 ### 1️⃣ 수집
