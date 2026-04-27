@@ -4,13 +4,12 @@
 ### 수행 기간
 > 2026.04.03 ~ 2026.04.14
 ### 팀원
-
-|이름|역할|
-|------|------|
-|김광현 |PM, 전체적인 SW 구현
-|명지훈 |PWM 모터 제어, PID 튜닝|
-|위오현 |도트 매트릭스 제어, UART 통신 구현|
-|최민지 |하드웨어 제작, PID 튜닝|
+> |이름|역할|
+> |------|------|
+> |김광현 |PM, 전체적인 SW 구현
+> |명지훈 |PWM 모터 제어, PID 튜닝|
+> |위오현 |도트 매트릭스 제어, UART 통신 구현|
+> |최민지 |하드웨어 제작, PID 튜닝|
 
 ### 목표
 > 실시간성 확보  
@@ -25,6 +24,12 @@
 
 ## ⚙️ 시스템 아키텍처
 ![sw_arch](img/sw_arch.png)
+
+## 🎥 시연
+<img width="600" height="338" alt="pv1" src="https://github.com/user-attachments/assets/1f62924e-a454-49a9-b577-7644e9516cce" /> <br/>
+<img width="600" height="338" alt="pv2" src="https://github.com/user-attachments/assets/af99aa9c-54c1-4df8-9a21-cc1552859b9c" />
+
+
 
 ## 🛠️ 하드웨어
 <details>
@@ -59,15 +64,9 @@
 > 무게 중심이 높고 무거울수록 로봇이 쓰러지는 속도가 느려짐 <br/>
 > -> 부품을 수직 방향으로 층층이 쌓아 올리는 구조 채택, 무거운 부품을 상단에 배치
 
-## 🎥 시연
-![uiux1](img/ui_ux1.jpg)
-![uiux1](img/ui_ux2.png)
-![uiux1](img/ui_ux3.png)
-![uiux1](img/ui_ux4.png)
-
 ## 🚨 트러블슈팅
 ### 1️⃣ 시스템 다운
-<img width="400" height="225" alt="ts1" src="https://github.com/user-attachments/assets/30513263-783b-4aa9-8dde-b22013a85248" />
+<img width="600" height="338" alt="ts1" src="https://github.com/user-attachments/assets/30513263-783b-4aa9-8dde-b22013a85248" />
 
 #### 문제
 > 동작 중 전원이 갑자기 꺼져버리는 현상 발생 <br/>
@@ -76,7 +75,7 @@
 > MPU6050 내부의 DMP 기능을 도입, DMP의 하드웨어 필터링으로 안정적인 기울기 값을 도출하여 모터에 가해지는 충격 완화
 
 ### 2️⃣ 센서값 지연
-<img width="400" height="225" alt="ts2" src="https://github.com/user-attachments/assets/f05bcc62-97eb-418f-a6c1-59f22b306bb0" />
+<img width="600" height="338" alt="ts2" src="https://github.com/user-attachments/assets/f05bcc62-97eb-418f-a6c1-59f22b306bb0" />
 
 #### 문제
 > 가속도 센서값 출력 지연 문제 <br/>
@@ -86,7 +85,7 @@
 > 센서의 통신 속도와 보드의 동작 속도를 일치시켜 센서값을 바로 받아옴
 
 ### 3️⃣ 쏠림
-<img width="400" height="225" alt="ts3" src="https://github.com/user-attachments/assets/4f93ad35-8727-4aed-ba31-c2e3928225b5" />
+<img width="600" height="338" alt="ts3" src="https://github.com/user-attachments/assets/4f93ad35-8727-4aed-ba31-c2e3928225b5" />
 
 #### 문제
 > 밸런싱을 하는 중 한쪽 방향으로 힘을 받으면 그 방향으로 계속 전진하는 문제 발생 <br/>
