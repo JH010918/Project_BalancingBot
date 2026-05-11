@@ -30,10 +30,13 @@
 ![sw_arch](img/sw_arch.png)
 
 ## 🎥 시연
+### 밸런싱
+<img width="600" height="338" alt="밸런싱 (1)" src="https://github.com/user-attachments/assets/a68ad231-55d4-44e0-8f68-352e1b9da676" /> <br/>
 ### 주행
 <img width="600" height="338" alt="pv1" src="https://github.com/user-attachments/assets/1f62924e-a454-49a9-b577-7644e9516cce" /> <br/>
 ### 장애물 극복
-<img width="600" height="338" alt="pv2" src="https://github.com/user-attachments/assets/af99aa9c-54c1-4df8-9a21-cc1552859b9c" />
+<img width="600" height="338" alt="pv2" src="https://github.com/user-attachments/assets/af99aa9c-54c1-4df8-9a21-cc1552859b9c" /> <br/>
+
 
 
 
