@@ -36,9 +36,6 @@
 ### 장애물 극복
 <img width="600" height="338" alt="pv2" src="https://github.com/user-attachments/assets/af99aa9c-54c1-4df8-9a21-cc1552859b9c" /> <br/>
 
-
-
-
 ## 🛠️ 하드웨어
 <details>
   <summary>HW</summary> 
@@ -118,6 +115,17 @@
 ### 실시간 상태 시각화
 #### 1️⃣SPI 통신을 이용한 실시간 상태 시각화
 > SPI 통신을 통해 로봇의 밸런싱 상태를 표정으로 피드백하는 직관적 시스템 구현
+</details>
+
+<details>
+  <summary>블루투스 로직</summary>
+  <img width="40%" alt="image" src="https://github.com/user-attachments/assets/bf6156e9-3f8a-4f0b-a695-7656513d503c" />
+</details>
+
+<details>
+  <summary>모터 제어 로직</summary>
+  <img width="60%" alt="image" src="https://github.com/user-attachments/assets/3db0ba20-e180-4ad7-850c-24a6639ca803" />
+
 </details>
 
 ## 🚨 트러블슈팅
