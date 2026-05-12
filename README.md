@@ -22,7 +22,7 @@
 > - 블루투스 통신 기능(UART)을 통해 스마트폰으로 로봇 무선 제어 가능
 ### 성과
 > - 제자리 밸런싱 시 진동 폭 $\pm$ 2도 이내 제어 <br/>
-> <img width="50%" alt="balancing_angle" src="https://github.com/user-attachments/assets/14627c26-a8b6-440b-a19c-d90edd9ed6ed" />
+> <img width="60%" alt="balancing_angle" src="https://github.com/user-attachments/assets/14627c26-a8b6-440b-a19c-d90edd9ed6ed" />
 >
 > - [밸런싱 및 외부 충격 복원 능력 확보](#밸런싱) <br/>
 > - [1.5cm 장애물 극복 주행](#장애물-극복) <br/>
@@ -110,14 +110,15 @@
 > 모터의 최소 PWM 값에 IMU와 엔코더에 의해 정해진 출력을 더해 모터 출력
 
 ### 모터 제어 로직
-<img width="60%" alt="image" src="https://github.com/user-attachments/assets/3db0ba20-e180-4ad7-850c-24a6639ca803" />
+<img width="70%" alt="image" src="https://github.com/user-attachments/assets/3db0ba20-e180-4ad7-850c-24a6639ca803" />
+
 #### 1️⃣이중 PID제어
 > 두 제어를 합치면 속도를 높이려다 로봇이 넘어지거나, 중심을 잡으려다 속도가 멋대로 변할 수 있기 때문에 분리
 > 외부 제어(엔코더)에서 현재 속도와 목표 속도를 기반으로 목표 기울기를 결정
 > 내부 제어(IMU)에서 현재 기울기와 모굪 기울기를 기반으로 모터를 돌릴 출력을 계산
 
 ### 블루투스 통신 및 앱제어
-<img width="30%" alt="image" src="https://github.com/user-attachments/assets/bf6156e9-3f8a-4f0b-a695-7656513d503c" />
+<img width="40%" alt="image" src="https://github.com/user-attachments/assets/bf6156e9-3f8a-4f0b-a695-7656513d503c" />
 
 #### 1️⃣UART 통신을 통한 로봇 제어
 > 블루투스 모듈과 UART 통신을 통해 스마트폰과 로봇 간 무선 통신 구현
