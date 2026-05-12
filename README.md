@@ -22,6 +22,8 @@
 > - 블루투스 통신 기능(UART)을 통해 스마트폰으로 로봇 무선 제어 가능
 ### 성과
 > - 제자리 밸런싱 시 진동 폭 $\pm$ 2도 이내 제어 <br/>
+> <img width="40%" alt="balancing_angle" src="https://github.com/user-attachments/assets/14627c26-a8b6-440b-a19c-d90edd9ed6ed" />
+
 > - [밸런싱 및 외부 충격 복원 능력 확보](#밸런싱) <br/>
 > - [1.5cm 장애물 극복 주행](#장애물-극복) <br/>
 
@@ -146,10 +148,12 @@
 > MPU6050 내부의 DMP 기능을 도입, DMP의 하드웨어 필터링으로 안정적인 기울기 값을 도출하여 모터에 가해지는 충격 완화
 
 ### 2️⃣ 센서값 지연
-<img width="600" height="338" alt="ts2" src="https://github.com/user-attachments/assets/f05bcc62-97eb-418f-a6c1-59f22b306bb0" />
+<img width="600" height="338" alt="ts2" src="https://github.com/user-attachments/assets/f05bcc62-97eb-418f-a6c1-59f22b306bb0" /> <br/>
+<img width="50%" alt="20260411_값느림" src="https://github.com/user-attachments/assets/afed64a2-b645-46d8-a020-20d24c5c9671" />
+
 
 #### 문제
-> 가속도 센서값 출력 지연 문제 <br/>
+> 가속도 센서값 출력이 지연되어 각도가 변해도 모터 파워가 느리게 변하는 문제 발생 <br/>
 > 누적된 값을 입력받아 로봇의 반응속도가 급격하게 느려지는 문제 발생 <br/>
 #### 해결 방안
 > DMP 가속 기능과 인터럽트 방식을 활용하여 제어 루프의 속도를 일정하게 유지 <br/>
