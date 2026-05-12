@@ -150,7 +150,7 @@
 
 ### 2️⃣ 센서값 지연
 <img width="600" height="338" alt="ts2" src="https://github.com/user-attachments/assets/f05bcc62-97eb-418f-a6c1-59f22b306bb0" /> <br/>
-<img width="50%" alt="20260411_값느림" src="https://github.com/user-attachments/assets/afed64a2-b645-46d8-a020-20d24c5c9671" />
+<img width="60%" alt="20260411_값느림" src="https://github.com/user-attachments/assets/afed64a2-b645-46d8-a020-20d24c5c9671" />
 
 
 #### 문제
