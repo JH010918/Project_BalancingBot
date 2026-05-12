@@ -22,7 +22,7 @@
 > - 블루투스 통신 기능(UART)을 통해 스마트폰으로 로봇 무선 제어 가능
 ### 성과
 > - 제자리 밸런싱 시 진동 폭 $\pm$ 2도 이내 제어 <br/>
-> <img width="40%" alt="balancing_angle" src="https://github.com/user-attachments/assets/14627c26-a8b6-440b-a19c-d90edd9ed6ed" />
+> <img width="50%" alt="balancing_angle" src="https://github.com/user-attachments/assets/14627c26-a8b6-440b-a19c-d90edd9ed6ed" />
 >
 > - [밸런싱 및 외부 충격 복원 능력 확보](#밸런싱) <br/>
 > - [1.5cm 장애물 극복 주행](#장애물-극복) <br/>
